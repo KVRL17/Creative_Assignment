@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Courses</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            width: 30%;
+            min-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>I am Venkata Ramana Karri, offering the following courses:</h1>
+    <div class="container">
+        <div class="card">
+            <img src="./web.avif" alt="Web Development">
+            <h3>Web Development</h3>
+        </div>
+        <div class="card">
+            <img src="./graphic.avif" alt="Graphic Design">
+            <h3>Graphic Design</h3>
+        </div>
+        <div class="card">
+            <img src="./seo.avif" alt="SEO Optimization">
+            <h3>SEO Optimization</h3>
+        </div>
+        <div class="card">
+            <img src="./data.avif" alt="Data Analysis">
+            <h3>Data Analysis</h3>
+        </div>
+        <div class="card">
+            <img src="./digital.avif" alt="Digital Marketing">
+            <h3>Digital Marketing</h3>
+        </div>
+        <div class="card">
+            <img src="./ui.avif" alt="UI/UX Design">
+            <h3>UI/UX Design</h3>
+        </div>
+    </div>
+</body>
+</html>
